@@ -48,7 +48,10 @@ class BST {
   }
 } // end of class
 
-// Usage example
+
+
+
+
 const bst = new BST();
 bst.root = new Node(50);
 bst.root.left = new Node(30);

@@ -12,6 +12,7 @@
     }
 
     BFS(){
+        
         let currentNode=this.root
         let queue=[]
         let results=[]
@@ -27,7 +28,6 @@
              if (currentNode.right) {
                 queue.push(currentNode.right)
             }
-
         }
 
         return results
